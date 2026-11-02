@@ -1,0 +1,10 @@
+.env
+.venv/
+__pycache__/
+.pytest_cache/
+*.pyc
+*.db
+node_modules/
+frontend/dist/
+.talo_secret
+.update_backup/

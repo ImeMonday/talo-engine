@@ -1,0 +1,13 @@
+numpy
+pandas
+scipy
+pytest
+fastapi
+uvicorn
+sqlalchemy
+argon2-cffi
+pyjwt
+python-multipart
+httpx
+openai
+python-dotenv

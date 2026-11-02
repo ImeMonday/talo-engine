@@ -1,0 +1,11 @@
+.git
+.env
+.update_backup
+apply_update*.py
+**/node_modules
+**/.venv
+**/__pycache__
+**/.pytest_cache
+frontend/dist
+*.db
+.talo_secret

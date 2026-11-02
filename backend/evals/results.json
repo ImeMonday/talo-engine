@@ -1,0 +1,73 @@
+{
+  "available": true,
+  "generated_at": "2026-11-01T19:47:08.668343+00:00",
+  "detection": {
+    "datasets": 3,
+    "recall": 1.0,
+    "precision": 1.0,
+    "clean_datasets": 3,
+    "clean_false_positives": 0
+  },
+  "providers": [
+    {
+      "mode": "cloud",
+      "provider": "meta-model-api",
+      "model": "muse-spark-1.1",
+      "audits": 3,
+      "claims": 20,
+      "supported": 20,
+      "partial": 0,
+      "insufficient": 0,
+      "rewritten": 4,
+      "first_pass_supported": 16,
+      "redteam_total": 30,
+      "redteam_caught": 30,
+      "failures": 0,
+      "calls": 30,
+      "call_errors": 0,
+      "avg_latency_ms": 5794,
+      "prompt_tokens": 29107,
+      "completion_tokens": 52476
+    },
+    {
+      "mode": "cloud",
+      "provider": "meta-model-api",
+      "model": "muse-spark-1.2",
+      "audits": 3,
+      "claims": 20,
+      "supported": 19,
+      "partial": 0,
+      "insufficient": 1,
+      "rewritten": 4,
+      "first_pass_supported": 15,
+      "redteam_total": 30,
+      "redteam_caught": 30,
+      "failures": 0,
+      "calls": 30,
+      "call_errors": 0,
+      "avg_latency_ms": 5431,
+      "prompt_tokens": 30462,
+      "completion_tokens": 50959
+    },
+    {
+      "mode": "cloud",
+      "provider": "meta-model-api",
+      "model": "muse-spark-1.3",
+      "audits": 3,
+      "claims": 20,
+      "supported": 20,
+      "partial": 0,
+      "insufficient": 0,
+      "rewritten": 7,
+      "first_pass_supported": 13,
+      "redteam_total": 30,
+      "redteam_caught": 30,
+      "failures": 0,
+      "calls": 30,
+      "call_errors": 0,
+      "avg_latency_ms": 8229,
+      "prompt_tokens": 32342,
+      "completion_tokens": 60871
+    }
+  ]
+}

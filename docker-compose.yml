@@ -1,0 +1,21 @@
+# Copy .env.example to .env and fill it in first, then: docker compose up --build
+# The app is served at http://localhost:8080. Set TALO_SECURE_COOKIES=1 once you serve it over HTTPS.
+services:
+  api:
+    build:
+      context: .
+      dockerfile: backend/Dockerfile
+    env_file: .env
+    environment:
+      TALO_DB_URL: sqlite:////data/talo.db
+      TALO_CORS_ORIGINS: http://localhost:8080
+    volumes:
+      - talo-data:/data
+  web:
+    build: ./frontend
+    ports:
+      - "8080:80"
+    depends_on:
+      - api
+volumes:
+  talo-data: {}

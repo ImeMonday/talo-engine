@@ -1,0 +1,15 @@
+services:
+  - type: web
+    name: talo
+    runtime: docker
+    plan: free
+    healthCheckPath: /api/health
+    envVars:
+      - key: MODEL_API_KEY
+        sync: false          # you paste your Meta key in the Render dashboard; it is never committed
+      - key: TALO_JWT_SECRET
+        generateValue: true
+      - key: TALO_SECURE_COOKIES
+        value: "1"
+      - key: TALO_DB_URL
+        value: sqlite:////tmp/talo.db
