@@ -211,9 +211,9 @@ def create_app(db_url: str | None = None, secret: str | None = None, llm_factory
         auth.clear(response)
         return {"ok": True}
 
-   @app.api_route("/api/health", methods=["GET", "HEAD"])
-def health():
-    return {"ok": True}
+    @app.api_route("/api/health", methods=["GET", "HEAD"])
+    def health():
+        return {"ok": True}
 
     @app.get("/api/me")
     def me(user: User = Depends(current_user), s: Session = Depends(db)):
