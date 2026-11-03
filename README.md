@@ -9,13 +9,8 @@ recorded in an Egress Ledger you can inspect.
 
 Built for the **Meta Global AI Developer Hackathon**, Indie Developer track, theme *Build for Your World*.
 
-**Live demo:** <YOUR-RENDER-URL> &nbsp;·&nbsp; **3-minute video:** <YOUR-VIDEO-URL>
+**Live demo:** (https://talo-iez0.onrender.com/)> &nbsp;·&nbsp; **3-minute video:** (https://youtu.be/s6yP8hDIywQ)
 
-<!-- Screenshots: add four PNGs to docs/screenshots/ and uncomment.
-| Audit console | Verified report | Red team | Egress Ledger |
-|---|---|---|---|
-| ![](docs/screenshots/console.png) | ![](docs/screenshots/report.png) | ![](docs/screenshots/redteam.png) | ![](docs/screenshots/ledger.png) |
--->
 
 ## The problem
 
